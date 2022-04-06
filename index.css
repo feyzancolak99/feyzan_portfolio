@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,10 +7,10 @@ html {
     scroll-behavior: smooth;
   }
 body{
-    padding-left: 285px;
-    padding-right: 285px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 5%;
+    padding-bottom: 8.6%;
     background-color: #FCF8FC;
     overflow-x: hidden;
 }
@@ -24,8 +24,8 @@ body{
     text-decoration: none;
     color: #78C8CF;
     font-family: 'Fira Sans Condensed', sans-serif;
-    padding: 40px;
-    font-size: 27px;   
+    padding: 3.5vmin;
+    font-size: 1.4vw;  
 }
 .nav-ul a:hover{
     text-decoration: none;
@@ -36,125 +36,113 @@ body{
     
 }
 .nav{
-    border: 2px solid #78C8CF;
+    border: 0.1vw solid #78C8CF;
     border-radius: 1.5px;
-    margin-left:40px;
-    margin-top: -5px;
+    margin-left:1.8vw;
+    margin-top: 0.02vw;
 }
 .isim{
     color: #19132E;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 800;
-    font-size: 110px;
+    font-size: 5.7vw;
 }
 .name-line {
-    border: 3px solid #19132E;
+    border: 0.2vw solid #19132E;
     border-radius: 3px;
-    width: 850px;
-    margin-left: -285px;
-    animation-name: name-line;
-    animation-duration: 2sn;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-}
-@keyframes name-line{
-    0%{
-        margin-left: -1135px;
-    }
-    100%{
-        margin-left: -285px;
-    }
+    width: 48vw;
+    margin-left: -30%;
 }
 .yazi{
     color: #8B7DB9;
-    font-size: 44px;
+    font-size: 2.3vw;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 .yazi-line{
-    border: 3px solid #8B7DB9;
+    border: 0.2vw solid #8B7DB9;
     border-radius: 3px;
-    width: 900px;
-    margin-right: -500px;
+    width: 50vw;
+    margin-right: -25vw;
 }
 .ok{
     display: block;
-    margin-top: 470px;
+    margin-top: 45vmin;
     margin-left: auto;
     margin-right: auto;
-    width: 50½;
+    width: 8%;
 }
 .ok:hover{
     transform: scale(1.3);
 }
 .about{
     color: #78C8CF;
-    font-size: 78px;
+    font-size: 4.06vw;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 .about-line{
-    border: 3px solid #78C8CF;
+    border: 0.2vw solid #78C8CF;
     border-radius: 3px;
-    width: 580px;
-    margin-left: -285px;
+    width: 34vw;
+    margin-left: -18vw;
 }
 .about-yazi{
     color: #19132E;
-    font-size: 26px;
+    font-size: 1.354vw;
     font-family: 'Fira Sans Condensed', sans-serif;
-    padding-top: 20px;
+    padding-top: 2.15vmin;
 }
 .rel{
     color: #8B7DB9;
-    font-size: 39px;
+    font-size: 2.03125vw;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 .rel-line{
-    border: 2px solid #8B7DB9;
+    border: 0.1vw solid #8B7DB9;
     border-radius: 1.5px;
-    width: 560px;
-    margin-left: -285px;
+    width: 32vw;
+    margin-left: -18vw;
 }
 .rel-ders{
     display: flex;
-    padding-top: 20px;
+    padding-top: 2.15vmin;
 }
 .ders{
     color: #19132E;
-    font-size: 24px;
+    font-size: 1.25vw;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 .intern{
     color: #8B7DB9;
-    font-size: 39px;
+    font-size: 2.03vw;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 .intern-line{
-    border: 2px solid #8B7DB9;
+    border: 0.1vw solid #8B7DB9;
     border-radius: 1.5px;
-    width: 645px;
-    margin-left: -285px;
+    width: 37vw;
+    margin-left: -18vw;
 }
 .intern-yazi{
     color: #19132E;
-    font-size: 24px;
+    font-size: 1.25vw;
     font-family: 'Fira Sans Condensed', sans-serif;
-    padding-top: 20px;
+    padding-top: 2.15vmin;
 }
 .skill{
     color: #8B7DB9;
-    font-size: 39px;
+    font-size: 2.03vw;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 .skill-line{
-    border: 2px solid #8B7DB9;
+    border: 0.1vw solid #8B7DB9;
     border-radius: 1.5px;
-    width: 645px;
+    width: 70vw;
 }
 .skill-yazi{
     color: #19132E;
-    font-size: 24px;
+    font-size: 1.25vw;
     font-family: 'Fira Sans Condensed', sans-serif;
-    padding-top: 20px;
+    padding-top: 2.15vmin;
 }
 .container{
     position: relative;
@@ -186,93 +174,93 @@ body{
 }
 .text{
     color: #19132E;
-    font-size: 30px;
+    font-size: 1.5625vw;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 800;
 }
 .projects{
     display: flex;
-    margin-top: 40px;
+    margin-top: 3vmin;
 }
 .proje-column{
-    width: 410px;
+    width: 21,35%;
 }
 .proje-baslik{
     color: #78C8CF;
-    font-size: 78px;
+    font-size: 4.06vw;
     font-family: 'Fira Sans Condensed', sans-serif;
-    margin-top: 150px;
+    margin-top: 7.81vmin;
 }
 .proje-line{
-    border: 3px solid #78C8CF;
+    border: 0.2vw solid #78C8CF;
     border-radius: 3px;
-    width: 540px;
-    margin-left: -285px;
+    width: 33vw;
+    margin-left: -20vw;
 }
 .contact{
-    margin-top: 150px;
+    margin-top: 7,8125vw;
 }
 .contact-baslik{
     color: #78C8CF;
-    font-size: 78px;
+    font-size: 4.06vw;
     font-family: 'Fira Sans Condensed', sans-serif;
-    margin-top: 150px;
+    margin-top: 7.8125vw;
 }
 .contact-line{
-    border: 3px solid #78C8CF;
+    border: 0.2vw solid #78C8CF;
     border-radius: 3px;
-    width: 525px;
-    margin-left: -285px;
-    margin-bottom: 40px;
+    width: 30vw;
+    margin-left: -18vw;
+    margin-bottom: 2.1vw;
 }
 .contact-madde{
     color: #8B7DB9;
-    font-size: 39px;
+    font-size: 2.03125vw;
     font-family: 'Fira Sans Condensed', sans-serif;
     text-align: right;
 }
 .contact-yazi{
-    margin-top: 10px;
+    margin-top: 1.1vmin;
     color: #19132E;
-    font-size: 24px;
+    font-size: 1.25vw;
     font-family: 'Fira Sans Condensed', sans-serif;
-    padding-top: -100px;
+    padding-top: -10.575vw;
     text-align: right;
 }
 .phone-line{
-    margin-top: -10px;
-    border: 2px solid #8B7DB9;
+    margin-top: -1.1vmin;
+    border: 0.1vw solid #8B7DB9;
     border-radius: 1.5px;
-    width: 500px;
-    margin-left:1235px;
+    width: 23vw;
+    margin-left:58vw;
 }
 .mail-line{
-    margin-top: -10px;
-    border: 2px solid #8B7DB9;
+    margin-top: -1.1vmin;
+    border: 0.1vw solid #8B7DB9;
     border-radius: 1.5px;
-    width: 470px;
-    margin-left:1245px;
+    width: 23vw;
+    margin-left:59vw;
 }
 .linkedin-line{
-    margin-top: -10px;
-    border: 2px solid #8B7DB9;
+    margin-top: -1.1vmin;
+    border: 0.1vw solid #8B7DB9;
     border-radius: 1.5px;
-    width: 500px;
-    margin-left:1200px;
+    width: 23vw;
+    margin-left:56.5vw;
 }
 .insta-line{
-    margin-top: -10px;
-    border: 2px solid #8B7DB9;
+    margin-top: -1.1vmin;
+    border:0.1vw solid #8B7DB9;
     border-radius: 1.5px;
-    width: 500px;
-    margin-left:1175px;
+    width: 23vw;
+    margin-left:55vw;
 }
 .adres-line{
-    margin-top: -10px;
-    border: 2px solid #8B7DB9;
+    margin-top: -1.1vmin;
+    border: 0.1vw solid #8B7DB9;
     border-radius: 1.5px;
-    width: 500px;
-    margin-left:1205px;
+    width: 23vw;
+    margin-left:57vw;
 }
 .btn{
 	box-shadow: none !important
@@ -280,18 +268,18 @@ body{
 .modal-baslik{
     font-family: 'Fira Sans Condensed', sans-serif;
     color: #8B7DB9;
-    font-size: 40px;
+    font-size:  2.08vw;
     font-weight: 800;
 }
 .modal-yazi{
     font-family: 'Fira Sans Condensed', sans-serif;
     color: #19132E;
-    font-size: 20px;
+    font-size: 1.041vw;
 }
 .resume{
-    margin-left: 20px;
+    margin-left: 2vmin;
     font-family: 'Fira Sans Condensed', sans-serif;
     color: #19132E;
-    font-size: 20px;
-    margin-top: 700px;
+    font-size: 1.041vw;
+    margin-top: 77vmin;
 }
